@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUBE 3D 정육면체_혼자하기_이미지</title>
+    <!-- icons -->
+    <script src="./icons/fontawesome.js"></script>
+    <!-- style -->
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/response.css">
+
+
+    <!-- 오픈 소스 jQuery 1.12.4ver -->
+    <script src="./js/lib/jquery.min.js"></script> 
+    <script src="./js/lib/jquery.touchSwipe.js"></script> 
+    <script src="./js/lib/jquery.easing.1.3.js"></script>
+    <script src="./js/lib/prefixfree.min.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <section id="cube3d">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+                        <div class="title-wrap">
+                            <h2>3D CUBE_1</h2>
+                        </div>
+                        <div class="content-wrap">
+                            <div class="cont-gap">
+                                <div class="content">
+                                    <input type="radio" id="front" name="face" value="front" checked class="addBtn">
+                                    <label for="front" class="addBtn"></label>
+
+                                    <input type="radio" id="back" name="face" value="back">
+                                    <label for="back">back</label>
+
+                                    <input type="radio" id="right" name="face" value="right">
+                                    <label for="right">right</label>
+
+                                    <input type="radio" id="left" name="face" value="left" >
+                                    <label for="left">left</label>
+
+                                    <input type="radio" id="top" name="face" value="top" >
+                                    <label for="top">top</label>
+
+                                    <input type="radio" id="bottom" name="face" value="bottom" >
+                                    <label for="bottom">bottom</label>
+
+                                    <ul class="cube">
+                                        <li class="face front">front</li>
+                                        <li class="face back">back</li>
+                                        <li class="face right">right</li>
+                                        <li class="face left">left</li>
+                                        <li class="face top">top</li>
+                                        <li class="face bottom">bottom</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./js/cube.js"></script>
+
+</body>
+</html>
+
